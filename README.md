@@ -1,12 +1,14 @@
 ## cmake
 
-[![Travis CI](http://img.shields.io/travis/AlbanAndrieu/ansible-cmake.svg?style=flat)](http://travis-ci.org/AlbanAndrieu/ansible-cmake) [![Branch](http://img.shields.io/github/tag/AlbanAndrieu/ansible-cmake.svg?style=flat-square)](https://github.com/AlbanAndrieu/ansible-cmake/tree/master)  [![Ansible Galaxy](http://img.shields.io/badge/galaxy-AlbanAndrieu.cmake-660198.svg?style=flat)](https://galaxy.ansible.com/list#/roles/1628) [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
+[![Travis CI](http://img.shields.io/travis/AlbanAndrieu/ansible-cmake.svg?style=flat)](http://travis-ci.org/AlbanAndrieu/ansible-cmake) [![Branch](http://img.shields.io/github/tag/AlbanAndrieu/ansible-cmake.svg?style=flat-square)](https://github.com/AlbanAndrieu/ansible-cmake/tree/master) [![Donate](https://img.shields.io/gratipay/AlbanAndrieu.svg?style=flat)](https://www.gratipay.com/AlbanAndrieu)  [![Ansible Galaxy](http://img.shields.io/badge/galaxy-AlbanAndrieu.cmake-blue.svg?style=flat)](https://galaxy.ansible.com/list#/roles/1628) [![Platforms](http://img.shields.io/badge/platforms-ubuntu-lightgrey.svg?style=flat)](#)
 
 Ensures that cmake is installed (using `apt`)
 
 ### Installation
 
-This role requires at least Ansible `v1.6.3`. To install it, run:
+This role requires at least Ansible `v1.6.3`. 
+
+To install it, run:
 
     ansible-galaxy install AlbanAndrieu.cmake
 
@@ -35,7 +37,7 @@ Describe how to use in more detail...
 
 ### Feedback, bug-reports, requests, ...
 
-Are [welcome](https://github.com/AlbanAndrieu/ansible-cmake/issues>)!
+Are [welcome](https://github.com/AlbanAndrieu/ansible-cmake/issues)!
 
 ***
 
