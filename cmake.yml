@@ -1,6 +1,5 @@
 ---
 - hosts: all
-  sudo: True
+  sudo: true
   roles:
-    - ansible-cmake
-
+    - role: ./
