@@ -19,8 +19,7 @@ To install it, run:
 List of default variables available in the inventory:
 
 ```yaml
-        ---
-    cmake_enabled: yes                       # Enable module
+        cmake_enabled: yes                       # Enable module
 ```
 
 
