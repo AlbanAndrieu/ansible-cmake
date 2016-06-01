@@ -7,4 +7,4 @@
   tags: package
   with_items:
    - cmake
-   - cmake-curses-gui
+#   - cmake-curses-gui
