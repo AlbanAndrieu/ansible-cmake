@@ -7,3 +7,4 @@
   with_items:
    - cmake
 #   - cmake-curses-gui
+  become: yes
