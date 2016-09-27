@@ -1,10 +1,19 @@
 ---
 # This playbook contains common plays that will be run on all nodes.
 
-- name: Install cmake
+- name: Include OS specific vars
+  tags: cmake
+  include_vars: "{{ ansible_os_family }}.yml"
+
+- name: cmake | Install cmake
   action: "{{ ansible_pkg_mgr}} name={{ item }} update_cache=yes state={{ cmake_pkg_state|default('present') }}"
-  tags: package
+  tags: cmake
   with_items:
-   - cmake
-#   - cmake-curses-gui
+   - cmake{{ cmake_version }}
+  become: yes
+
+- name: cmake | Install required packages
+  action: "{{ ansible_pkg_mgr }} state={{ util_package_state|default('present') }} name={{ item }}"
+  with_items: "{{ cmake_package_list }}"
+  tags: cmake
   become: yes

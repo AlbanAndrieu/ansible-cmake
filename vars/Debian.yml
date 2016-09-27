@@ -1,0 +1,6 @@
+---
+#cmake_version: "=2.8.12.2-0ubuntu3"
+cmake_version: ""
+
+cmake_package_list:
+  - cmake-curses-gui
