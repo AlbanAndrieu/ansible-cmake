@@ -1,4 +1,6 @@
 ---
 cmake_version: ""
 
-cmake_package_list: []
+#cmake_package_list: []
+cmake_package_list:
+  - cmake3-gui

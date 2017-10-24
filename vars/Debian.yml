@@ -4,4 +4,5 @@ cmake_version: ""
 
 cmake_package_list:
   - cmake-curses-gui
+  - cmake-qt-gui
   - colormake
