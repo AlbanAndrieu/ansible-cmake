@@ -6,7 +6,7 @@
   include_vars: "{{ ansible_os_family }}.yml"
 
 - name: cmake | Install cmake
-  action: "{{ ansible_pkg_mgr}} name={{ item }} update_cache=yes state={{ cmake_pkg_state|default('present') }}"
+  action: "{{ ansible_pkg_mgr}} name={{ item }} state={{ cmake_pkg_state|default('present') }}"
   tags: cmake
   with_items:
    - cmake{{ cmake_version }}
